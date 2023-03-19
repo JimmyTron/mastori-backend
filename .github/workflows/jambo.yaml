@@ -1,3 +1,49 @@
+Skip to content
+
+Search or jump to...
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@JimmyTron 
+SpaceyaTech
+/
+opensource
+Public
+Fork your own copy of SpaceyaTech/opensource
+Code
+Issues
+11
+Pull requests
+Discussions
+Actions
+Projects
+Security
+Insights
+Settings
+Breadcrumbsopensource/.github/workflows
+/greetings.yaml
+Latest commit
+
+JimmyTron
+Update greetings.yaml
+823b68b · 
+yesterday
+History
+File metadata and controls
+
+Code
+
+Blame
+56 lines (47 loc) · 3.46 KB
+Older
+Newer
+JimmyTron
+yesterday
+
+Create
 name: Jambo
 on:
   fork:
@@ -18,6 +64,75 @@ jobs:
       - uses: Oty-s/community-repository/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "<h1>It's great having you contribute to this project</h1> Welcome to the community :nerd_face:"
-          pr-message: "<h1>It's great having you contribute to this project</h1> Welcome to the community :nerd_face:"
+          issue-message: |
+yesterday
+
+Update greetings.yaml
+                         <h1> Hi there 👋 thank you for opening this Issue 🎉
+                          Welcome to SpaceYaTech</h1>
+yesterday
+
+Create
+                          🙋‍♀️🙋‍♀️🙋‍♀️🙋‍
+yesterday
+
+Update greetings.yaml
+                          <h2>We are the fastest growing Africa Open-Source Community Looking To Change The Way Young Africans Get Started In Technology.  </h2>
+yesterday
+
+Create
+                          **JOIN US** | **THRIVE** | **GROW**  
+                          [![SpaceYaTech Server](https://dcbadge.vercel.app/api/server/wThVRr8NTN)](https://discord.gg/wThVRr8NTN)
+                          [![SpaceYaTech LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://ke.linkedin.com/company/spaceyatech)
+                          [![SpaceYaTech Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SpaceyaTech)
+                          [![Website](https://img.shields.io/badge/website-07C160?style=for-the-badge&logoColor=white)](https://www.spaceyatech.com/#)
+                          [![Github](https://img.shields.io/github/followers/SpaceyaTech.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/SpaceyaTech/) 
+yesterday
+
+Update greetings.yaml
+                          <h2>It's great having you contribute to this project</h2> Welcome to the community :nerd_face:</h2>
+                          🍿 **Fun facts** - we eat bugs 🐛🐛🐛🐛 for breakfast 🥣
+                          
+yesterday
+
+Update greetings.yaml
+          pr-message: |
+                       <h1> Hello contributor,👋 thank you for opening a Pull Request 🎉
+                          Welcome to SpaceYaTech</h1>
+yesterday
+
+Update greetings.yaml
+                          
+yesterday
+
+Update greetings.yaml
+                          🙋‍♀️🙋‍♀️
+                          <h2>We are the fastest growing Africa Open-Source Community Looking To Change The Way Young Africans Get Started In Technology.  </h2>
+yesterday
+
+Update greetings.yaml
+                          
+yesterday
+
+Update greetings.yaml
+                          **JOIN US** | **THRIVE** | **GROW**  
+yesterday
+
+Update greetings.yaml
+                          
+yesterday
+
+Update greetings.yaml
+                          [![SpaceYaTech Server](https://dcbadge.vercel.app/api/server/wThVRr8NTN)](https://discord.gg/wThVRr8NTN)
+                          [![SpaceYaTech LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://ke.linkedin.com/company/spaceyatech)
+                          [![SpaceYaTech Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SpaceyaTech)
+                          [![Website](https://img.shields.io/badge/website-07C160?style=for-the-badge&logoColor=white)](https://www.spaceyatech.com/#)
+                          <h2>It's great having you contribute to this project</h2> Welcome to the community :nerd_face:</h2>
+                          🍿 **Fun facts** - we eat bugs 🐛🐛🐛🐛 for breakfast 🥣
+                          <h2> This Pull request has been queued for `review`</h2>
+                          Sit tight the maintainers are on your case.
+yesterday
+
+Create
           footer: 'If you would like to continue contributing to open source and would like to do it with an awesome inclusive community'
+Blaming opensource/greetings.yaml at 823b68b7b7a8d1b9acf996ce08285f637b120f55 · SpaceyaTech/opensource · GitHub
