@@ -15,12 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      
       - uses: Oty-s/community-repository/src/welcome@main
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: |
+         github-token: ${{ secrets.GITHUB_TOKEN }}
+         issue-message: |
                          <h1>Hello contributor, thank you for opening an Issue 🎉.</h1>"
-                       # Welcome to SpaceYaTech
+                         # Welcome to SpaceYaTech
                           
                           🙋‍♀️🙋‍♀️🙋‍♀️🙋‍
                          
@@ -37,7 +38,7 @@ jobs:
                           
                           🍿 **Fun facts** - we eat bugs 🐛🐛🐛🐛 for breakfast 🥣
                           
-          pr-message: |
+         pr-message: |
                          <h1>Hello contributor, thank you for opening a Pull Request 👋🎉 
                           Welcome to SpaceYaTech</h1>
                           
