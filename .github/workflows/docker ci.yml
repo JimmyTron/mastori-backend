@@ -19,7 +19,7 @@ jobs:
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
 
     - name: Run the Docker container
-      run: docker run --name container-name -d -p 80:8000 my-image-name:$(date +%s)
+      run: docker run --name container-name -d -p 80:8000 my-image-name
 
     - name: Check if the container is up and running
       run: docker ps | grep container-name
