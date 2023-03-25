@@ -1,0 +1,33 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build-and-test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+
+    - name: Run the Docker container
+      run: docker run --name container-name -d -p 80:8000 my-image-name:$(date +%s)
+
+    - name: Check if the container is up and running
+      run: docker ps | grep container-name
+
+    - name: Check if the application is running inside the container
+      run: |
+        docker exec container-name netstat -lnp | grep 8000
+        docker logs container-name | grep -i error
+
+    - name: Stop and remove the Docker container
+      run: docker stop container-name && docker rm container-name
